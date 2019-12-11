@@ -11,7 +11,7 @@ html {
   color: #070439;
 }
 
-li {
+ul li {
   list-style: none;
   font-size: 14px;
   display: flex;
@@ -92,6 +92,8 @@ input {
 }
 
 .start {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border: 1px solid #3065F7;
   color: #f6f6fe;
   background: #3065F7;
@@ -197,4 +199,94 @@ h3 {
   color: #070439;
 }
 
+.early-access {
+  background: #575989;
+  color: #F6F6FE;
+  padding-bottom: 80px;
+}
+
+.early-access h3 {
+  padding: 50px 0 25px;
+}
+
+.early-access p {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.early-access .start-email {
+  display: block;
+  width: 70%;
+  margin: 40px auto 15px;
+  padding-left: 20px;
+}
+
+.early-access .start-free {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #3065F7;
+  color: #f6f6fe;
+  background: #3065F7;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 5px;
+  height: 40px;
+}
+
+footer {
+  background: #07043B;
+  padding: 70px 5% 55px;
+}
+
+footer .logo-white {
+  margin-bottom: 45px;
+}
+
+footer svg {
+  fill: white;
+}
+
+footer p {
+  color: white;
+}
+
+footer .contacts {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+footer .contacts img {
+  padding-right: 15px;
+}
+
+footer a {
+  color: white;
+  font-size: 16px;
+}
+
+footer li {
+  padding: 25px 0 0;
+}
+
+footer .contacts-second {
+  margin-top: 45px;
+}
+
+footer .socials {
+  margin-top: 45px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.socials svg {
+  height: 100%;
+  padding: 0 10px;
+}
 
